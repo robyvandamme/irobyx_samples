@@ -1,7 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperAutofac", "AutoMapperAutofac\AutoMapperAutofac.csproj", "{CC1BEE56-428C-453C-950D-4572B689060A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperAutofac.Tests", "AutoMapperAutofac.Tests\AutoMapperAutofac.Tests.csproj", "{A234A990-28BA-42CC-B4A9-738C0B950FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE7562AB-AE0C-4584-A8A5-083F0BFAA575}"
+	ProjectSection(SolutionItems) = preProject
+		irobyx.Samples.vsmdi = irobyx.Samples.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = irobyx.Samples.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC1BEE56-428C-453C-950D-4572B689060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1BEE56-428C-453C-950D-4572B689060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1BEE56-428C-453C-950D-4572B689060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1BEE56-428C-453C-950D-4572B689060A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A234A990-28BA-42CC-B4A9-738C0B950FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A234A990-28BA-42CC-B4A9-738C0B950FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A234A990-28BA-42CC-B4A9-738C0B950FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A234A990-28BA-42CC-B4A9-738C0B950FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

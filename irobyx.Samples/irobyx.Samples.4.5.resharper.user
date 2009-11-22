@@ -1,0 +1,66 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="IMappingEngine" priority="0" />
+      <Item value="engine" priority="1" />
+      <Item value="_Engine" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A234A990-28BA-42CC-B4A9-738C0B950FEB/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:AbstractClass.cs" caret="32" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:Address.cs" caret="44" fromTop="1" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:ConcreteClass.cs" caret="38" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:OtherConcreteClass.cs" caret="22" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:Person.cs" caret="46" fromTop="2" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:AbstractClass.cs" caret="22" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:Address.cs" caret="35" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:ConcreteClass.cs" caret="22" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:OtherConcreteClass.cs" caret="31" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:Person.cs" caret="33" fromTop="3" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:SpecialCode.cs" caret="33" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:Mapper.cs" caret="594" fromTop="20" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:IMapper.cs" caret="80" fromTop="2" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ServiceLayer/f:IPersonService.cs" caret="65" fromTop="2" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ServiceLayer/f:PersonService.cs" caret="1903" fromTop="51" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ServiceLayer/f:IPersonService.cs" caret="65" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ServiceLayer/f:PersonService.cs" caret="1903" fromTop="48" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:AbstractClass.cs" caret="198" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:AbstractClass.cs" caret="32" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:Address.cs" caret="28" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:ConcreteClass.cs" caret="17" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:OtherConcreteClass.cs" caret="22" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:DataContracts/f:Person.cs" caret="46" fromTop="2" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:AbstractClass.cs" caret="125" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:AbstractClass.cs" caret="22" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:Address.cs" caret="32" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:ConcreteClass.cs" caret="22" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:OtherConcreteClass.cs" caret="31" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:Person.cs" caret="36" fromTop="3" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:Domain/f:SpecialCode.cs" caret="30" fromTop="0" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:IMapper.cs" caret="80" fromTop="2" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:Mapper.cs" caret="430" fromTop="14" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:Mapper.cs" caret="620" fromTop="21" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:Mapper.cs" caret="870" fromTop="28" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:Mapper.cs" caret="337" fromTop="10" />
+      <File id="CC1BEE56-428C-453C-950D-4572B689060A/d:ObjectMappers/f:Mapper.cs" caret="13" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>
