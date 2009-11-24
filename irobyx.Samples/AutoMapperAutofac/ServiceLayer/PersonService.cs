@@ -1,22 +1,19 @@
-﻿using AutoMapperAutofac.Domain;
-using AutoMapperAutofac.ObjectMappers;
-using ConcreteClass=AutoMapperAutofac.Domain.ConcreteClass;
-using Person=AutoMapperAutofac.Domain.Person;
+﻿using irobyx.AutoMapperSample.Mappers;
 
-namespace AutoMapperAutofac.ServiceLayer
+namespace irobyx.AutoMapperSample.ServiceLayer
 {
     public class PersonService : IPersonService
     {
-        private readonly IDomainMapper<Person, DataContracts.Person> _personMapper;
+        private readonly IDomainMapper<Domain.Person, DataContracts.Person> _personMapper;
 
-        public PersonService(IDomainMapper<Person, DataContracts.Person> personMapper)
+        public PersonService(IDomainMapper<Domain.Person, DataContracts.Person> personMapper)
         {
             _personMapper = personMapper;
         }
 
         public DataContracts.Person GetPerson()
         {
-            var domain = new Person { Name = "Scully" };
+            var domain = new Domain.Person { Name = "Scully" };
             domain.Address.Street = "58th Street";
             // now we need to map it
             var dataContract = _personMapper.Map(domain);
@@ -25,23 +22,23 @@ namespace AutoMapperAutofac.ServiceLayer
 
         public DataContracts.Person GetDataContractsAbstractPerson()
         {
-            var domain = new Person { Name = "Scully" };
+            var domain = new Domain.Person { Name = "Scully" };
             domain.Address.Street = "58th Street";
-            var concrete = new ConcreteClass();
+            var concrete = new Domain.ConcreteClass();
             concrete.Number = 1;
             domain.AbstractClass = concrete;
-            domain.SpecialCode = new SpecialCode();
+            domain.SpecialCode = new Domain.SpecialCode();
             domain.SpecialCode.Code = "special";
             //now we need to map it
             var dataContract = _personMapper.Map(domain);
             return dataContract;
         }
 
-        public Person GetDomainAbstractPerson()
+        public Domain.Person GetDomainAbstractPerson()
         {
             var dataContract = new DataContracts.Person { Name = "Scully" };
             dataContract.Address.Street = "58th Street";
-            var concrete = new OtherConcreteClass();
+            var concrete = new DataContracts.OtherConcreteClass();
             concrete.Description = "description";
             dataContract.AbstractClass = concrete;
             // now we need to map it

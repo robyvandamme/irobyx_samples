@@ -8,8 +8,8 @@
     <ProjectGuid>{CC1BEE56-428C-453C-950D-4572B689060A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AutoMapperAutofac</RootNamespace>
-    <AssemblyName>AutoMapperAutofac</AssemblyName>
+    <RootNamespace>irobyx.AutoMapperSample</RootNamespace>
+    <AssemblyName>AutoMapperSample</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DataContracts\AbstractClass.cs" />
     <Compile Include="DataContracts\Address.cs" />
     <Compile Include="DataContracts\ConcreteClass.cs" />
@@ -63,17 +62,14 @@
     <Compile Include="Domain\SpecialCode.cs" />
     <Compile Include="Extensions\EnumerableExtensions.cs" />
     <Compile Include="Extensions\IMappingExpressionExtensions.cs" />
+    <Compile Include="MapperConfiguration\IAutoMapperConfiguration.cs" />
     <Compile Include="ServiceLayer\IPersonService.cs" />
     <Compile Include="MapperConfiguration\AutoMapperConfiguration.cs" />
-    <Compile Include="MapperConfiguration\AutoMapperContainerConfiguration.cs" />
-    <Compile Include="MapperFormatters\DateTimeFormatter.cs" />
     <Compile Include="MapperProfiles\PersonProfile.cs" />
-    <Compile Include="ObjectMappers\IDomainMapper.cs" />
-    <Compile Include="ObjectMappers\DomainMapper.cs" />
+    <Compile Include="Mappers\IDomainMapper.cs" />
+    <Compile Include="Mappers\DomainMapper.cs" />
     <Compile Include="ServiceLayer\PersonService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeConverters\SpecialCodeToStringConverter.cs" />
-    <Compile Include="TypeConverters\StringToSpecialCodeConverter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

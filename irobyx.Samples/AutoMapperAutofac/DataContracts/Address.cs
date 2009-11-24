@@ -1,4 +1,4 @@
-namespace AutoMapperAutofac.DataContracts
+namespace irobyx.AutoMapperSample.DataContracts
 {
     public class Address
     {

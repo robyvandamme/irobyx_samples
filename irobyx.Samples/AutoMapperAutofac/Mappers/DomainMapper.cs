@@ -1,7 +1,7 @@
 using System;
 using AutoMapper;
 
-namespace AutoMapperAutofac.ObjectMappers
+namespace irobyx.AutoMapperSample.Mappers
 {
     public class DomainMapper<TDomain, TDataContract> : 
         IDomainMapper<TDomain, TDataContract> 

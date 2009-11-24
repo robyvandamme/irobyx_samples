@@ -1,6 +1,6 @@
 using System;
 
-namespace AutoMapperAutofac.DataContracts
+namespace irobyx.AutoMapperSample.DataContracts
 {
     public class Person
     {

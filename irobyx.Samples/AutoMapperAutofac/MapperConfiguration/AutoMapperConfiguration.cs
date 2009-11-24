@@ -1,14 +1,20 @@
-using Autofac;
 using AutoMapper;
-using AutoMapperTest.MapperProfiles;
+using irobyx.AutoMapperSample.MapperProfiles;
 
-namespace AutoMapperTest.MapperConfiguration
+namespace irobyx.AutoMapperSample.MapperConfiguration
 {
-    public class AutoMapperConfiguration
+    public class AutoMapperConfiguration: IAutoMapperConfiguration
     {
-        public static void Configure()
+        private IConfiguration _configuration;
+
+        public AutoMapperConfiguration(IConfiguration configuration)
         {
-            Mapper.Initialize(x => x.AddProfile<PersonProfile>());
+            _configuration = configuration;
+        }
+
+        public void AddProfilesToConfiguration()
+        {
+            _configuration.AddProfile<PersonProfile>();
         }
     }
 }

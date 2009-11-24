@@ -1,0 +1,11 @@
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\AutoMapperSample.Tests.dll
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\AutoMapperSample.Tests.pdb
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\Autofac.dll
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\AutoMapper.dll
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\AutoMapperSample.dll
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\AutoMapperSample.pdb
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\Autofac.pdb
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\bin\Debug\Autofac.xml
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\obj\Debug\AutoMapperSample.Tests.dll
+D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac.Tests\obj\Debug\AutoMapperSample.Tests.pdb

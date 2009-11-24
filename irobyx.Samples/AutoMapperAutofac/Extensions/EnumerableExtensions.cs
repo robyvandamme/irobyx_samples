@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AutoMapperTest.Extensions
+namespace irobyx.AutoMapperSample.Extensions
 {
     public static class EnumerableExtensions
     {

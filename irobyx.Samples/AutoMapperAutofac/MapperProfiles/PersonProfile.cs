@@ -1,11 +1,7 @@
-using AutoMapperAutofac.DataContracts;
-using AutoMapperTest.Extensions;
-using Address=AutoMapperAutofac.Domain.Address;
-using ConcreteClass=AutoMapperAutofac.Domain.ConcreteClass;
-using OtherConcreteClass=AutoMapperAutofac.Domain.OtherConcreteClass;
-using Person=AutoMapperAutofac.Domain.Person;
+using AutoMapper;
+using irobyx.AutoMapperSample.Extensions;
 
-namespace AutoMapperTest.MapperProfiles
+namespace irobyx.AutoMapperSample.MapperProfiles
 {
     public class PersonProfile: Profile
     {
@@ -20,30 +16,24 @@ namespace AutoMapperTest.MapperProfiles
         protected override void Configure()
         {
             
-            CreateMap<Person, AutoMapperAutofac.DataContracts.Person>().BothWays();
-            
-            
+            CreateMap<Domain.Address, DataContracts.Address>().BothWays();
 
-            CreateMap<Address, AutoMapperAutofac.DataContracts.Address>().BothWays();
-
-
-            CreateMap<Person, AutoMapperAutofac.DataContracts.Person>()
+            CreateMap<Domain.Person, DataContracts.Person>()
                 .ForMember(dest => dest.Code, opt => opt.MapFrom(src => src.SpecialCode.Code));
-            CreateMap<AutoMapperAutofac.DataContracts.Person, Person>()
+            CreateMap<DataContracts.Person, Domain.Person>()
                 .ForMember(dest => dest.SpecialCode, opt => opt.MapFrom(src => src.Code));
 
-            CreateMap<ConcreteClass, AutoMapperAutofac.DataContracts.ConcreteClass>().BothWays();
-            CreateMap<OtherConcreteClass, AutoMapperAutofac.DataContracts.OtherConcreteClass>().BothWays();
-            CreateMap<AutoMapperAutofac.Domain.AbstractClass, AbstractClass>()
+            CreateMap<Domain.ConcreteClass, DataContracts.ConcreteClass>().BothWays();
+            CreateMap<Domain.OtherConcreteClass, DataContracts.OtherConcreteClass>().BothWays();
+            CreateMap<Domain.AbstractClass, DataContracts.AbstractClass>()
                 .MapAbstractDomain()
-                .Include<ConcreteClass, AutoMapperAutofac.DataContracts.ConcreteClass>()
-                .Include<OtherConcreteClass, AutoMapperAutofac.DataContracts.OtherConcreteClass>();
+                .Include<Domain.ConcreteClass, DataContracts.ConcreteClass>()
+                .Include<Domain.OtherConcreteClass, DataContracts.OtherConcreteClass>();
 
-            CreateMap<AbstractClass, AutoMapperAutofac.Domain.AbstractClass>()
+            CreateMap<DataContracts.AbstractClass, Domain.AbstractClass>()
                 .MapAbstractDataContract()
-                .Include<AutoMapperAutofac.DataContracts.ConcreteClass, ConcreteClass>()
-                .Include<AutoMapperAutofac.DataContracts.OtherConcreteClass, OtherConcreteClass>();
-
+                .Include<DataContracts.ConcreteClass, Domain.ConcreteClass>()
+                .Include<DataContracts.OtherConcreteClass, Domain.OtherConcreteClass>();
         }
     }
 }

@@ -1,11 +1,10 @@
-using Person=AutoMapperAutofac.Domain.Person;
 
-namespace AutoMapperAutofac.ServiceLayer
+namespace irobyx.AutoMapperSample.ServiceLayer
 {
     public interface IPersonService
     {
         DataContracts.Person GetPerson();
         DataContracts.Person GetDataContractsAbstractPerson();
-        Person GetDomainAbstractPerson();
+        Domain.Person GetDomainAbstractPerson();
     }
 }

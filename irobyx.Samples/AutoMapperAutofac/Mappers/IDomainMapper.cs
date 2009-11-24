@@ -1,4 +1,4 @@
-namespace AutoMapperAutofac.ObjectMappers
+namespace irobyx.AutoMapperSample.Mappers
 {
     public interface IDomainMapper<TDomain, TDataContract>
         where TDataContract : class ,new()

@@ -1,4 +1,4 @@
-namespace AutoMapperAutofac.Domain
+namespace irobyx.AutoMapperSample.Domain
 {
     public class Address
     {

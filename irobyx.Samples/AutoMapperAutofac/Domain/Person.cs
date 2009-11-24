@@ -1,6 +1,6 @@
 using System;
 
-namespace AutoMapperAutofac.Domain
+namespace irobyx.AutoMapperSample.Domain
 {
     public class Person
     {
