@@ -1,19 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperSample", "AutoMapperAutofac\AutoMapperSample.csproj", "{CC1BEE56-428C-453C-950D-4572B689060A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperSample.Tests", "AutoMapperAutofac.Tests\AutoMapperSample.Tests.csproj", "{A234A990-28BA-42CC-B4A9-738C0B950FEB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE7562AB-AE0C-4584-A8A5-083F0BFAA575}"
 	ProjectSection(SolutionItems) = preProject
 		irobyx.Samples.vsmdi = irobyx.Samples.vsmdi
+		irobyx.Samples1.vsmdi = irobyx.Samples1.vsmdi
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperSample", "AutoMapperSample\AutoMapperSample.csproj", "{CC1BEE56-428C-453C-950D-4572B689060A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperSample.Tests", "AutoMapperSample.Tests\AutoMapperSample.Tests.csproj", "{A234A990-28BA-42CC-B4A9-738C0B950FEB}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = irobyx.Samples.vsmdi
+		CategoryFile = irobyx.Samples1.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

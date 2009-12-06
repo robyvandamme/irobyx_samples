@@ -1,6 +1,0 @@
-D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac\obj\Debug\ResolveAssemblyReference.cache
-D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac\bin\Debug\AutoMapperSample.dll
-D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac\bin\Debug\AutoMapperSample.pdb
-D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac\bin\Debug\AutoMapper.dll
-D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac\obj\Debug\AutoMapperSample.dll
-D:\Repositories\irobyx_samples\irobyx.Samples\AutoMapperAutofac\obj\Debug\AutoMapperSample.pdb
