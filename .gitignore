@@ -1,15 +1,1 @@
 
-#ignore output
-bin/
-obj/
-[Dd]ebug/
-#ignore user files
-*.suo
-#ignore resharper files
-_ReSharper*/
-*.resharper.user
-#ignore test files
-[Tt]est[Rr]esult*
-*.vsmdi
-#tfs files
-*.vspscc
